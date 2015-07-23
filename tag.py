@@ -33,5 +33,5 @@ def secs_to_hm(seconds):
     minutes = int(seconds%60)
     return str(hour) + ":" + '{:02d}'.format(minutes)
 
-url = generate_url('enna solla pogirai kandukondain')
+url = generate_url('tere naina')
 get_info(url)
